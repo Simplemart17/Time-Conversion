@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+  font: 17px/1.5 Arial;
+  background: #d8d8dd;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+header {
+  background: #1177aa;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  border: #000000;
+  font-size: 20px;
+}
+
+section {
+  width: 30%;
+  margin: auto;
+  margin-bottom: auto;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #0b3b2e;
+  font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px;
+  text-align: left;
+  margin-bottom: 17%;
+}
+
+section #mil {
+  display: block;
+  width: 80%;
+  margin: 5px 0 5px 0;
+  font-size: 15px;
+  padding: 10px;
+  border: 2px solid #d8d8dd;
+  border-radius: 8px;
+  color: #000000;
+}
+
+
+section input:focus {
+  outline: 1px solid rebeccapurple;
+  border-radius: 8px;
+}
+
+section button:focus {
+  outline: yellow;
+}
+
+section button {
+  display: block;
+  margin: 5px 0 5px 0;
+  font-size: 17px;
+  padding: 5px;
+  color: rgb(253, 6, 6);
+  background: #0fd88e;
+  border-radius: 5px;
+}
+
+section #mil-answer-box {
+  display: block;
+  width: 95px;
+  height: 40px;
+  border: 2px solid #0b3b2e;
+  border-radius: 8px;
+  padding: 9px;
+  font-size: 15px;
+  color: blue;
+  margin-top: 10px;
+}
+
+
+footer {
+  color: #000000;
+  background: #8f8b8b;
+  text-align: center;
+  font-size: 1em;
+}
